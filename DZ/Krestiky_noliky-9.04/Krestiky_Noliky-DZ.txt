@@ -1,3 +1,4 @@
+Дз за 1 урок(9.04.24)
 using System;
 class Program
 {
