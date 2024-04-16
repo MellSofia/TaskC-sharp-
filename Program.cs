@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 class Program
 {
     static bool main_flag = true;
@@ -13,19 +13,45 @@ class Program
         Console.WriteLine("1 2 3");
         Console.WriteLine();
 
+        Console.WriteLine("Выберите порядок хода: 1 или 2");
+        int playerOrder;
+        bool f = int.TryParse(Console.ReadLine(), out playerOrder);
+        while (!f)
+        {
+            Console.WriteLine("Ошибка!! Требуется цифра!!");
+            f = int.TryParse(Console.ReadLine(), out playerOrder);
+        }
+        Console.WriteLine("Выберите символ для своего хода:");
+        char playerSymbol = Console.ReadLine()[0];
+        /*bool ps = char.TryParse(Console.ReadLine(), out playerSymbol);
+        while (ps)
+        {
+            Console.WriteLine("Ошибка!! Требуется цифра!!");
+            ps = char.TryParse(Console.ReadLine(), out playerSymbol);
+        }*/
+        char computerSymbol = playerSymbol == 'x' ? 'o' : 'x';
+
         while (main_flag)
         {
             PrintBoard(a);
 
             for (int i = 0; i < 9; i++)
             {
-                PlayerMove(a, i % 2 == 0 ? 'x' : 'o');
+                if (i % 2 == (playerOrder - 1))
+                {
+                    PlayerMove(a, playerSymbol, playerOrder);
+                }
+                else
+                {
+                    PlayerMove(a, computerSymbol, 3 - playerOrder);
+                }
+
                 if (!main_flag)
                 {
                     Console.WriteLine("Игра прервана");
                     return;
                 }
-                if (CheckWinOrDraw(a, i % 2 == 0 ? 'x' : 'o'))
+                if (CheckWinOrDraw(a, i % 2 == (playerOrder - 1) ? playerSymbol : computerSymbol))
                 {
                     return;
                 }
@@ -40,15 +66,15 @@ class Program
         Console.WriteLine($"{a[1]} {a[2]} {a[3]}");
     }
 
-    static void PlayerMove(char[] a, char playerSymbol)
+    static void PlayerMove(char[] a, char playerSymbol, int playerNumber)
     {
         int move;
-        Console.WriteLine($"Игрок {(playerSymbol == 'x' ? "1" : "2")} ваш ход:");
-        move = int.Parse(Console.ReadLine());
-        while (a[move] != '-')
+        Console.WriteLine($"Игрок {playerNumber} ваш ход:");
+        bool ff = int.TryParse(Console.ReadLine(), out move);
+        while ((a[move] != '-') || (!ff))
         {
             Console.WriteLine("Недопустимый ход. Попробуйте еще раз:");
-            move = int.Parse(Console.ReadLine());
+            ff = int.TryParse(Console.ReadLine(), out move);
         }
         a[move] = playerSymbol;
         PrintBoard(a);

@@ -48,11 +48,6 @@ class Program
         int move;
         Console.WriteLine($"Игрок {(playerSymbol == 'x' ? "1" : "2")} ваш ход:");
         move = int.Parse(Console.ReadLine());
-        if (move == -21)
-        {
-            main_flag = false;
-            return;
-        }
         while (a[move] != '-')
         {
             Console.WriteLine("Недопустимый ход. Попробуйте еще раз:");
