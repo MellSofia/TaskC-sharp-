@@ -1,7 +1,0 @@
-C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\04.18.24(2)\04.18.24(2)\bin\Debug\04.18.24(2).exe.config
-C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\04.18.24(2)\04.18.24(2)\bin\Debug\04.18.24(2).exe
-C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\04.18.24(2)\04.18.24(2)\bin\Debug\04.18.24(2).pdb
-C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\04.18.24(2)\04.18.24(2)\obj\Debug\04.18.24(2).csproj.AssemblyReference.cache
-C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\04.18.24(2)\04.18.24(2)\obj\Debug\04.18.24(2).csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\04.18.24(2)\04.18.24(2)\obj\Debug\04.18.24(2).exe
-C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\04.18.24(2)\04.18.24(2)\obj\Debug\04.18.24(2).pdb

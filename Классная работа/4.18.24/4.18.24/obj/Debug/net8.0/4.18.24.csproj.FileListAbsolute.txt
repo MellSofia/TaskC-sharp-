@@ -13,3 +13,18 @@ C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\4.1
 C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\4.18.24.pdb
 C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\4.18.24.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\ref\4.18.24.dll
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\bin\Debug\net8.0\4.18.24.exe
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\bin\Debug\net8.0\4.18.24.deps.json
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\bin\Debug\net8.0\4.18.24.runtimeconfig.json
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\bin\Debug\net8.0\4.18.24.dll
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\bin\Debug\net8.0\4.18.24.pdb
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\4.18.24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\4.18.24.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\4.18.24.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\4.18.24.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\4.18.24.sourcelink.json
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\4.18.24.dll
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\refint\4.18.24.dll
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\4.18.24.pdb
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\4.18.24.genruntimeconfig.cache
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\Классная работа\4.18.24\4.18.24\obj\Debug\net8.0\ref\4.18.24.dll
