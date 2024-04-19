@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Colossus.cs" />
+    <Compile Include="HangingGardens .cs" />
+    <Compile Include="Lighthouse.cs" />
+    <Compile Include="Mausoleum.cs" />
+    <Compile Include="Pyramid.cs" />
+    <Compile Include="SevenWondersApp.cs" />
+    <Compile Include="StatueOfZeus.cs" />
+    <Compile Include="StudentApp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TempleOfArtemis.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

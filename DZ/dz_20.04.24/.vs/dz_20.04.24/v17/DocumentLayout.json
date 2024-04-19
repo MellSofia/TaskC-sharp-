@@ -1,10 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\C#\\TaskC-sharp-\\DZ\\Krestiky-noliky-11.04\\dz_20.04.24\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|c:\\users\\administrator\\desktop\\c#\\taskc-sharp-\\dz\\krestiky-noliky-11.04\\dz_20.04.24\\dz_20.04.24\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|solutionrelative:dz_20.04.24\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\taskc-sharp-\\dz\\dz_20.04.24\\dz_20.04.24\\sevenwondersapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|solutionrelative:dz_20.04.24\\sevenwondersapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\taskc-sharp-\\dz\\dz_20.04.24\\dz_20.04.24\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|solutionrelative:dz_20.04.24\\pyramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\taskc-sharp-\\dz\\dz_20.04.24\\dz_20.04.24\\hanginggardens .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|solutionrelative:dz_20.04.24\\hanginggardens .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\taskc-sharp-\\dz\\dz_20.04.24\\dz_20.04.24\\lighthouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|solutionrelative:dz_20.04.24\\lighthouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\taskc-sharp-\\dz\\dz_20.04.24\\dz_20.04.24\\colossus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|solutionrelative:dz_20.04.24\\colossus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\taskc-sharp-\\dz\\dz_20.04.24\\dz_20.04.24\\statueofzeus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|solutionrelative:dz_20.04.24\\statueofzeus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\taskc-sharp-\\dz\\dz_20.04.24\\dz_20.04.24\\templeofartemis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|solutionrelative:dz_20.04.24\\templeofartemis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|c:\\users\\user\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\taskc-sharp-\\dz\\dz_20.04.24\\dz_20.04.24\\mausoleum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|solutionrelative:dz_20.04.24\\mausoleum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\studentapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0BB42A6-1314-4AB8-B523-96A116584040}|dz_20.04.24\\dz_20.04.24.csproj|solutionrelative:dz_20.04.24\\studentapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lighthouse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\Lighthouse.cs",
+              "RelativeDocumentMoniker": "dz_20.04.24\\Lighthouse.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\Lighthouse.cs",
+              "RelativeToolTip": "dz_20.04.24\\Lighthouse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T19:31:39.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Colossus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\Colossus.cs",
+              "RelativeDocumentMoniker": "dz_20.04.24\\Colossus.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\Colossus.cs",
+              "RelativeToolTip": "dz_20.04.24\\Colossus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T19:31:11.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Mausoleum.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\Mausoleum.cs",
+              "RelativeDocumentMoniker": "dz_20.04.24\\Mausoleum.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\Mausoleum.cs",
+              "RelativeToolTip": "dz_20.04.24\\Mausoleum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T19:30:39.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TempleOfArtemis.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\TempleOfArtemis.cs",
+              "RelativeDocumentMoniker": "dz_20.04.24\\TempleOfArtemis.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\TempleOfArtemis.cs",
+              "RelativeToolTip": "dz_20.04.24\\TempleOfArtemis.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T19:29:20.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StatueOfZeus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\StatueOfZeus.cs",
+              "RelativeDocumentMoniker": "dz_20.04.24\\StatueOfZeus.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\StatueOfZeus.cs",
+              "RelativeToolTip": "dz_20.04.24\\StatueOfZeus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T19:28:29.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HangingGardens .cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\HangingGardens .cs",
+              "RelativeDocumentMoniker": "dz_20.04.24\\HangingGardens .cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\HangingGardens .cs",
+              "RelativeToolTip": "dz_20.04.24\\HangingGardens .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T19:27:05.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pyramid.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\Pyramid.cs",
+              "RelativeDocumentMoniker": "dz_20.04.24\\Pyramid.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\Pyramid.cs",
+              "RelativeToolTip": "dz_20.04.24\\Pyramid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T19:23:52.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SevenWondersApp.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\SevenWondersApp.cs",
+              "RelativeDocumentMoniker": "dz_20.04.24\\SevenWondersApp.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\SevenWondersApp.cs",
+              "RelativeToolTip": "dz_20.04.24\\SevenWondersApp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T19:16:56.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentApp.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\StudentApp.cs",
+              "RelativeDocumentMoniker": "dz_20.04.24\\StudentApp.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\StudentApp.cs",
+              "RelativeToolTip": "dz_20.04.24\\StudentApp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T19:11:49.4Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C#\\TaskC-sharp-\\DZ\\Krestiky-noliky-11.04\\dz_20.04.24\\dz_20.04.24\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\Program.cs",
               "RelativeDocumentMoniker": "dz_20.04.24\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\C#\\TaskC-sharp-\\DZ\\Krestiky-noliky-11.04\\dz_20.04.24\\dz_20.04.24\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\TaskC-sharp-\\DZ\\dz_20.04.24\\dz_20.04.24\\Program.cs",
               "RelativeToolTip": "dz_20.04.24\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswA4AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T12:58:08.505Z",
+              "WhenOpened": "2024-04-18T19:11:04.658Z",
               "EditorCaption": ""
             }
           ]
