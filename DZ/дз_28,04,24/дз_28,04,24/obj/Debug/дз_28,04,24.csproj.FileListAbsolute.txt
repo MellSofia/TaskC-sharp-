@@ -1,7 +1,0 @@
-C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\дз_28,04,24\дз_28,04,24\bin\Debug\дз_28,04,24.exe.config
-C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\дз_28,04,24\дз_28,04,24\bin\Debug\дз_28,04,24.exe
-C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\дз_28,04,24\дз_28,04,24\bin\Debug\дз_28,04,24.pdb
-C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\дз_28,04,24\дз_28,04,24\obj\Debug\дз_28,04,24.csproj.AssemblyReference.cache
-C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\дз_28,04,24\дз_28,04,24\obj\Debug\дз_28,04,24.csproj.CoreCompileInputs.cache
-C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\дз_28,04,24\дз_28,04,24\obj\Debug\дз_28,04,24.exe
-C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\дз_28,04,24\дз_28,04,24\obj\Debug\дз_28,04,24.pdb
