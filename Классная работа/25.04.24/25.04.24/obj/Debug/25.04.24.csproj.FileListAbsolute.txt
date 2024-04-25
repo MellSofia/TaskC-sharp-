@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\25.04.24\25.04.24\bin\Debug\25.04.24.exe.config
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\25.04.24\25.04.24\bin\Debug\25.04.24.exe
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\25.04.24\25.04.24\bin\Debug\25.04.24.pdb
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\25.04.24\25.04.24\obj\Debug\25.04.24.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\25.04.24\25.04.24\obj\Debug\25.04.24.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\25.04.24\25.04.24\obj\Debug\25.04.24.exe
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\25.04.24\25.04.24\obj\Debug\25.04.24.pdb
