@@ -1,0 +1,2 @@
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\obj\Debug\14.05.2024.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\obj\Debug\14.05.2024.csproj.CoreCompileInputs.cache
