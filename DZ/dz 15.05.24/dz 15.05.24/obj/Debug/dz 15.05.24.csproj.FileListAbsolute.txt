@@ -1,0 +1,7 @@
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\dz 15.05.24\dz 15.05.24\obj\Debug\dz 15.05.24.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\dz 15.05.24\dz 15.05.24\obj\Debug\dz 15.05.24.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\dz 15.05.24\dz 15.05.24\bin\Debug\dz 15.05.24.exe.config
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\dz 15.05.24\dz 15.05.24\bin\Debug\dz 15.05.24.exe
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\dz 15.05.24\dz 15.05.24\bin\Debug\dz 15.05.24.pdb
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\dz 15.05.24\dz 15.05.24\obj\Debug\dz 15.05.24.exe
+C:\Users\User\OneDrive\Рабочий стол\Програмирование\TaskC-sharp-\DZ\dz 15.05.24\dz 15.05.24\obj\Debug\dz 15.05.24.pdb
