@@ -1,4 +1,5 @@
-﻿using System;
+﻿using school;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
@@ -9,17 +10,21 @@ namespace school
 {
     class Student
     {
-        public int mark;
         public string Name { get; set; }
-        public bool went {  get; set; }
-        public bool punished {  get; set; }
+        public List<int> Marks { get; set; }
+        public bool Went { get; set; }
+        public bool Punished { get; set; }
+        public int PunishedCount { get; set; }
+        public int WentCount { get; set; }
 
-        public Student(string name, int mark1)
+        public Student(string name)
         {
             Name = name;
-            went = false;
-            punished = false;
-            mark=mark1;
+            Marks = new List<int>();
+            Went = false;
+            Punished = false;
+            PunishedCount = 0;
+            WentCount = 0;
         }
     }
 
