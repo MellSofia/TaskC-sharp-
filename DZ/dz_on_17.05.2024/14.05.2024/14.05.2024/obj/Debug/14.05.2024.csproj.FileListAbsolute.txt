@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\obj\Debug\14.05.2024.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\C#\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\obj\Debug\14.05.2024.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\obj\Debug\14.05.2024.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\obj\Debug\14.05.2024.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\bin\Debug\14.05.2024.exe.config
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\bin\Debug\14.05.2024.exe
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\bin\Debug\14.05.2024.pdb
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\obj\Debug\14.05.2024.exe
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\Классная работа\14.05.2024\14.05.2024\obj\Debug\14.05.2024.pdb
