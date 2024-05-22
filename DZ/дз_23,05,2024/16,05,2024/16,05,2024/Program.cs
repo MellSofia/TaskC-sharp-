@@ -5,7 +5,8 @@ using school;
 using System.Data.SqlTypes;
 using System;
 
-class Program {
+class Program
+{
     static void Main()
     {
         List<Student> students = new List<Student> {
@@ -82,4 +83,4 @@ class Program {
             Console.WriteLine($"Student: {student.Name}, Went: {student.WentCount}, Punished: {student.PunishedCount}, Average Mark: {student.Marks.Average()}");
         }
     }
-} 
+}
