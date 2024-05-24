@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\dz.26.05.2024\dz.26.05.2024\bin\Debug\dz.26.05.2024.exe.config
+C:\Users\User\source\repos\dz.26.05.2024\dz.26.05.2024\bin\Debug\dz.26.05.2024.exe
+C:\Users\User\source\repos\dz.26.05.2024\dz.26.05.2024\bin\Debug\dz.26.05.2024.pdb
+C:\Users\User\source\repos\dz.26.05.2024\dz.26.05.2024\obj\Debug\dz.26.05.2024.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\dz.26.05.2024\dz.26.05.2024\obj\Debug\dz.26.05.2024.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\dz.26.05.2024\dz.26.05.2024\obj\Debug\dz.26.05.2024.exe
+C:\Users\User\source\repos\dz.26.05.2024\dz.26.05.2024\obj\Debug\dz.26.05.2024.pdb
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz.24.05.2024\dz.26.05.2024\bin\Debug\dz.26.05.2024.exe.config
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz.24.05.2024\dz.26.05.2024\bin\Debug\dz.26.05.2024.exe
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz.24.05.2024\dz.26.05.2024\bin\Debug\dz.26.05.2024.pdb
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz.24.05.2024\dz.26.05.2024\obj\Debug\dz.26.05.2024.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz.24.05.2024\dz.26.05.2024\obj\Debug\dz.26.05.2024.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz.24.05.2024\dz.26.05.2024\obj\Debug\dz.26.05.2024.exe
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz.24.05.2024\dz.26.05.2024\obj\Debug\dz.26.05.2024.pdb
