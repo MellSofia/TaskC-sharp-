@@ -1,4 +1,5 @@
-﻿namespace _23._05._24
+﻿
+namespace _23._05._24
 {
     partial class Main_Form
     {
@@ -28,52 +29,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_Form));
-            button1 = new Button();
+            incr_button = new Button();
             label1 = new Label();
-            textBox1 = new TextBox();
+            decr_button = new Button();
             SuspendLayout();
             // 
-            // button1
+            // incr_button
             // 
-            button1.BackColor = Color.Transparent;
-            button1.Location = new Point(250, 344);
-            button1.Name = "button1";
-            button1.Padding = new Padding(20);
-            button1.Size = new Size(549, 10);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            incr_button.BackColor = Color.Transparent;
+            incr_button.Location = new Point(796, 343);
+            incr_button.Name = "incr_button";
+            incr_button.Padding = new Padding(20);
+            incr_button.Size = new Size(273, 155);
+            incr_button.TabIndex = 0;
+            incr_button.Text = "increase";
+            incr_button.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(259, 98);
+            label1.Font = new Font("Times New Roman", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label1.Location = new Point(669, 259);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(102, 40);
             label1.TabIndex = 1;
             label1.Text = "label1";
-            label1.Click += label1_Click;
             // 
-            // textBox1
+            // decr_button
             // 
-            textBox1.Location = new Point(234, 52);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 2;
-            textBox1.TextChanged += textBox1_TextChanged;
+            decr_button.BackColor = Color.Transparent;
+            decr_button.Location = new Point(365, 343);
+            decr_button.Name = "decr_button";
+            decr_button.Padding = new Padding(20);
+            decr_button.Size = new Size(273, 155);
+            decr_button.TabIndex = 2;
+            decr_button.Text = "decrease";
+            decr_button.UseVisualStyleBackColor = false;
+            decr_button.Click += Decr_Button_Click;
             // 
             // Main_Form
             // 
             AllowDrop = true;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1416, 644);
-            Controls.Add(textBox1);
+            Controls.Add(decr_button);
             Controls.Add(label1);
-            Controls.Add(button1);
+            Controls.Add(incr_button);
             Name = "Main_Form";
             Text = "First Progect";
             Load += Form1_Load;
@@ -81,10 +83,13 @@
             PerformLayout();
         }
 
+
+
         #endregion
 
-        private Button button1;
-        private Label label1;
+        private Button incr_button;
         private TextBox textBox1;
+        private Label label1;
+        private Button decr_button;
     }
 }
