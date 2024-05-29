@@ -1,0 +1,17 @@
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\bin\Debug\net8.0-windows\dz_WinFormApp.29.05.24.exe
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\bin\Debug\net8.0-windows\dz_WinFormApp.29.05.24.deps.json
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\bin\Debug\net8.0-windows\dz_WinFormApp.29.05.24.runtimeconfig.json
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\bin\Debug\net8.0-windows\dz_WinFormApp.29.05.24.dll
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\bin\Debug\net8.0-windows\dz_WinFormApp.29.05.24.pdb
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\dz_WinFormApp._29._05._24.Form1.resources
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\dz_WinFormApp.29.05.24.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\dz_WinFormApp.29.05.24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\dz_WinFormApp.29.05.24.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\dz_WinFormApp.29.05.24.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\dz_WinFormApp.29.05.24.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\dz_WinFormApp.29.05.24.sourcelink.json
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\dz_WinFormApp.29.05.24.dll
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\refint\dz_WinFormApp.29.05.24.dll
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\dz_WinFormApp.29.05.24.pdb
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\dz_WinFormApp.29.05.24.genruntimeconfig.cache
+C:\Users\User\OneDrive\Рабочий стол\Новая папка\TaskC-sharp-\DZ\dz_WinFormApp.29.05.24\dz_WinFormApp.29.05.24\obj\Debug\net8.0-windows\ref\dz_WinFormApp.29.05.24.dll
