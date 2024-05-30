@@ -69,5 +69,15 @@ namespace _28._05._2024.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_20240504_115208 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_20240504-115208", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
