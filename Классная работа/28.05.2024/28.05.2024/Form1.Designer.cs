@@ -44,12 +44,9 @@ namespace _28._05._2024
             button_restart = new Button();
             player = new PictureBox();
             BG2 = new PictureBox();
-            groupBox1 = new GroupBox();
-            groupBox2 = new GroupBox();
             ((System.ComponentModel.ISupportInitialize)BG1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BG2).BeginInit();
-            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // decr_button
@@ -99,7 +96,7 @@ namespace _28._05._2024
             // show_meter
             // 
             show_meter.AutoSize = true;
-            show_meter.Location = new Point(115, 29);
+            show_meter.Location = new Point(149, 25);
             show_meter.Name = "show_meter";
             show_meter.Size = new Size(38, 15);
             show_meter.TabIndex = 5;
@@ -108,7 +105,7 @@ namespace _28._05._2024
             // show_life
             // 
             show_life.AutoSize = true;
-            show_life.Location = new Point(29, 29);
+            show_life.Location = new Point(21, 25);
             show_life.Name = "show_life";
             show_life.Size = new Size(38, 15);
             show_life.TabIndex = 6;
@@ -118,7 +115,7 @@ namespace _28._05._2024
             // 
             show_hit.AutoSize = true;
             show_hit.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            show_hit.Location = new Point(335, 94);
+            show_hit.Location = new Point(334, 25);
             show_hit.Name = "show_hit";
             show_hit.Size = new Size(108, 50);
             show_hit.TabIndex = 7;
@@ -166,7 +163,7 @@ namespace _28._05._2024
             player.BackgroundImage = (Image)resources.GetObject("player.BackgroundImage");
             player.BackgroundImageLayout = ImageLayout.Stretch;
             player.BorderStyle = BorderStyle.FixedSingle;
-            player.Location = new Point(0, 246);
+            player.Location = new Point(21, 202);
             player.Name = "player";
             player.Size = new Size(109, 55);
             player.TabIndex = 11;
@@ -184,33 +181,13 @@ namespace _28._05._2024
             BG2.TabIndex = 12;
             BG2.TabStop = false;
             // 
-            // groupBox1
-            // 
-            groupBox1.Controls.Add(show_life);
-            groupBox1.Controls.Add(show_meter);
-            groupBox1.Location = new Point(12, 12);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(200, 68);
-            groupBox1.TabIndex = 13;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
-            // 
-            // groupBox2
-            // 
-            groupBox2.Location = new Point(513, 18);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(200, 62);
-            groupBox2.TabIndex = 14;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "groupBox2";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
+            Controls.Add(show_life);
+            Controls.Add(show_meter);
             Controls.Add(player);
             Controls.Add(button_restart);
             Controls.Add(button_stop);
@@ -224,12 +201,11 @@ namespace _28._05._2024
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Form1";
             Text = "Form1";
+            Click += Form1_Click;
             KeyDown += Form1_KeyDown;
             ((System.ComponentModel.ISupportInitialize)BG1).EndInit();
             ((System.ComponentModel.ISupportInitialize)player).EndInit();
             ((System.ComponentModel.ISupportInitialize)BG2).EndInit();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -252,7 +228,5 @@ namespace _28._05._2024
         private Button button_restart;
         private PictureBox player;
         private PictureBox BG2;
-        private GroupBox groupBox1;
-        private GroupBox groupBox2;
     }
 }

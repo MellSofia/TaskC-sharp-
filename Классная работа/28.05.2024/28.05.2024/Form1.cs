@@ -9,8 +9,15 @@ namespace _28._05._2024
         private int tmr_hit;
         private bool ingame;
         private int tmr_meter;
+        private int speed;
+        private int accel_g;
+        private int accel_h;
+
         public Form1()
         {
+            speed = 0;
+            accel_g = 2;
+            accel_h = 8;
             InitializeComponent();
             ct = new Car_Toyota("corolla");
             ct.hit_from_pit += ct.hit_handler;
@@ -26,6 +33,7 @@ namespace _28._05._2024
             counter -= 1;
             ct.Speed -= 1;
             show_text.Text = ct.Speed.ToString();
+            accel_h = accel_g * 4;
         }
         private void Incr_button_Click(object sender, EventArgs e)
         {
@@ -36,7 +44,7 @@ namespace _28._05._2024
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            player.Left = ct.update_Y();
+            //player.Left = ct.update_Y();
             //meter = Math.Round(meter + ct.Speed * 0.1 , 1);
             meter += ct.Speed;
             tmr_meter++;
@@ -69,6 +77,22 @@ namespace _28._05._2024
                 BG2.Left = BG1.Right;
             }
             if (ct.Life < 0) { timer1.Stop(); }
+
+
+            /*accel_h=accel_h>0 ? accel_h-1:0 ;
+
+            speed += accel_g - accel_h;*/
+
+            speed += accel_g - accel_h;
+            if ((player.Top >= BG1.Top + player.Height))
+            {
+                player.Top = BG1.Top + player.Height;
+                speed = 0;
+            }
+            player.Top += speed;
+            if (accel_h > 0) { accel_h -= 1; }
+            else player.Top = 0;
+
         }
 
         private void button_start_Click(object sender, EventArgs e)
@@ -125,10 +149,12 @@ namespace _28._05._2024
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Space) 
-            { 
             
-            }
+        }
+
+        private void Form1_Click(object sender, EventArgs e)
+        {
+            accel_h = accel_g * 4;
         }
     }
 }
