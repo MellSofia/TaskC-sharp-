@@ -9,6 +9,7 @@ namespace notes
     public partial class Form1 : Form
     {
         private string note_name_hint = "Hазвание заметки. Hе более 500 слова";
+        private string note_comment_hint = "“екст заметки.";
         public Form1()
         {
             InitializeComponent();
@@ -24,41 +25,49 @@ namespace notes
             string[] arr;
             foreach (var i in dir.GetFiles())
             {
-                list_notes.Items.Add(i.Name);
+                list_notes.Items.Add(Path.GetFileNameWithoutExtension(i.Name));
             }
         }
 
         private void button_save_Click(object sender, EventArgs e)
         {
             bool flag = true;
+            foreach (var i in Name_textbox.Text)
+            {
+                if (i == '.' || i == '?' || i == '/' || i == '\\' || i == '\'' || i == '\"' || i == '*' || i == '<' || i == '>' || i == '|')
+                {
+                    flag = false;
+                    MessageBox.Show("название не должно содержать . ? , / и тому подобные ");
+                }
+            }
             if (Name_textbox.Text == note_name_hint || Name_textbox.Text == "")
             {
                 flag = false;
-                MessageBox.Show("Ќазвание не должно быть пусты");
+                MessageBox.Show("название не должно быть пустым");
             }
-            if (comments_textBox.Text == note_name_hint || comments_textBox.Text == "")
+            if (comments_textBox.Text == note_comment_hint || comments_textBox.Text == "")
             {
                 flag = false;
-                MessageBox.Show("“екст заметки не должно быть пусты");
+                MessageBox.Show("текст заметки не должен быть пустым");
             }
-            if (comboBox1.Text == note_name_hint || !comboBox1.Items.Contains(comboBox1.Text))
+            if (comboBox1.Text == "")
             {
                 flag = false;
-                MessageBox.Show("ѕриоритет заметки не должно быть пусты");
+                MessageBox.Show("приоритет заметки не должен быть пустым");
             }
             if (!comboBox1.Items.Contains(comboBox1.Text))
             {
                 flag = false;
-                MessageBox.Show("¬ыберите приоритет заметки");
+                MessageBox.Show("пожалуйста, выберите приоритет из списка");
             }
+
             if (flag)
             {
-
-                string filePath = $"{comboBox1.Text} # {Name_textbox.Text}.txt";
+                string filePath = $"data/# {Name_textbox.Text}.txt";
                 if (File.Exists(filePath)) { File.Delete(filePath); }
                 using (FileStream fs = new FileStream(filePath, FileMode.Create))
                 {
-                    using (StreamWriter sw = new StreamWriter(fs, Encoding.Unicode))
+                    using (StreamWriter sw = new StreamWriter(fs, Encoding.UTF8))
                     {
                         sw.WriteLine(comboBox1.Text);
                         sw.WriteLine(dateTimePicker1.Text);
@@ -68,11 +77,16 @@ namespace notes
                         }
                     }
                 }
-                list_notes.Items.Add($"{comboBox1.Text} # {Name_textbox.Text}");
+                if (list_notes.FindString($"# {Name_textbox.Text}") != -1)
+                {
+                    list_notes.Items.Remove($"# {Name_textbox.Text}");
+                }
+
+                list_notes.Items.Add($"# {Name_textbox.Text}");
                 comments_textBox.Text = "";
                 Name_textbox.Text = "";
-                dateTimePicker1.Text = "";
                 comboBox1.Text = "";
+                dateTimePicker1.Text = "";
             }
         }
 
@@ -83,11 +97,14 @@ namespace notes
             {
                 Name_textbox.Text = "";
             }
+
         }
 
         private void Name_textbox_Leave(object sender, EventArgs e)
         {
-            if (Name_textbox.Text == "" || Name_textbox.Text == note_name_hint || Name_textbox.Text == null)
+            if (Name_textbox.Text == ""
+                || Name_textbox.Text == note_name_hint
+                || Name_textbox.Text == null)
             {
                 Name_textbox.ForeColor = Color.Gray;
                 Name_textbox.Text = note_name_hint;
@@ -96,21 +113,79 @@ namespace notes
 
         private void list_notes_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (list_notes.SelectedIndex != null)
+            if (list_notes.SelectedItem != null)
             {
-                string selectNode = list_notes.SelectedIndex.ToString();
-                string filePath = $"data/{selectNode}.txt";
+                string selectNote = list_notes.SelectedItem.ToString();
+
+                string filePath = $"data/{selectNote}.txt";
+
                 using (FileStream fs = new FileStream(filePath, FileMode.Open))
                 {
-                    using (StreamReader sr = new StreamReader(fs, Encoding.Unicode))
+                    using (StreamReader sr = new StreamReader(fs, Encoding.UTF8))
                     {
-                        Name_textbox.Text = selectNode.Substring(selectNode.IndexOf('#') + 2);
+                        Name_textbox.Text = selectNote.Substring(selectNote.IndexOf('#') + 2);
                         comboBox1.Text = sr.ReadLine();
                         dateTimePicker1.Text = sr.ReadLine();
                         comments_textBox.Text = sr.ReadToEnd();
+                        button_del.Visible = true;
                     }
+
                 }
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comments_textBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comments_textBox_Enter(object sender, EventArgs e)
+        {
+            comments_textBox.ForeColor = Color.Black;
+            if (comments_textBox.Text == note_comment_hint)
+                comments_textBox.Text = "";
+        }
+
+        private void comments_textBox_Leave(object sender, EventArgs e)
+        {
+            if (comments_textBox.Text == ""
+                || comments_textBox.Text == note_comment_hint
+                || comments_textBox.Text == null)
+            {
+                comments_textBox.ForeColor = Color.Gray;
+                comments_textBox.Text = note_comment_hint;
+            }
+        }
+
+        private void button_del_Click(object sender, EventArgs e)
+        {
+            DialogResult res = MessageBox.Show("¬ы точно хотите удалить заметку?", "—ообщение",
+    MessageBoxButtons.YesNo, MessageBoxIcon.Question,
+    MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+            if (res == DialogResult.Yes)
+            {
+                string filePath = $"data/# {Name_textbox.Text}.txt";
+                if (File.Exists(filePath)) { File.Delete(filePath); }
+                list_notes.Items.Remove($"# {Name_textbox.Text}");
+                comments_textBox.Text = "";
+                Name_textbox.Text = "";
+                comboBox1.Text = "";
+                dateTimePicker1.Text = "";
+                button_del.Visible = false;
+            }
+        }
+
+        private void button_new_Click(object sender, EventArgs e)
+        {
+            comments_textBox.Text = "";
+            Name_textbox.Text = "";
+            comboBox1.Text = "";
+            dateTimePicker1.Text = "";
         }
     }
 }

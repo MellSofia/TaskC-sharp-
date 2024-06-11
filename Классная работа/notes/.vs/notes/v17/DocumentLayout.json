@@ -3,27 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|c:\\users\\student_06\\desktop\\c#\\taskc-sharp-\\\u043A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|solutionrelative:notes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|solutionrelative:notes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|c:\\users\\student_06\\desktop\\c#\\taskc-sharp-\\\u043A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|solutionrelative:notes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|solutionrelative:notes\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|solutionrelative:notes\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|c:\\users\\student_06\\desktop\\c#\\taskc-sharp-\\\u043A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|solutionrelative:notes\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|c:\\users\\student_06\\desktop\\c#\\taskc-sharp-\\\u043A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|solutionrelative:notes\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|c:\\users\\student_06\\desktop\\c#\\taskc-sharp-\\\u043A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\notes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\notes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{9184D4BE-8F8D-432D-8D63-C7DC0C19DCD0}|notes\\notes.csproj|solutionrelative:notes\\notes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
@@ -34,60 +37,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAG0UAAAAAAAAAAAAwIUUAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-11T13:03:36.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "notes\\Properties\\Resources.resx",
               "ToolTip": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\Properties\\Resources.resx",
               "RelativeToolTip": "notes\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-06T13:29:25.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T13:29:25.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "notes",
               "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\notes.csproj",
               "RelativeDocumentMoniker": "notes\\notes.csproj",
               "ToolTip": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\notes.csproj",
               "RelativeToolTip": "notes\\notes.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-06T13:29:20.768Z"
+              "WhenOpened": "2024-06-06T13:29:20.768Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "notes\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\Form1.Designer.cs",
               "RelativeToolTip": "notes\\Form1.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T14:38:40.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\Form1.cs",
               "RelativeDocumentMoniker": "notes\\Form1.cs",
               "ToolTip": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\Form1.cs",
               "RelativeToolTip": "notes\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAACKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T14:51:26.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\Form1.cs",
               "RelativeDocumentMoniker": "notes\\Form1.cs",
@@ -99,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.resx",
               "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\\u041A\u043B\u0430\u0441\u0441\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\notes\\notes\\Form1.resx",
               "RelativeDocumentMoniker": "notes\\Form1.resx",
