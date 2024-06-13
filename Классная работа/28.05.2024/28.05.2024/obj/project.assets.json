@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Student_08\\.nuget\\packages\\": {}
+    "C:\\Users\\Student_06\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student_08\\Desktop\\C#\\TaskC-sharp-\\Классная работа\\28.05.2024\\28.05.2024\\28.05.2024.csproj",
+      "projectUniqueName": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\Классная работа\\28.05.2024\\28.05.2024\\28.05.2024.csproj",
       "projectName": "28.05.2024",
-      "projectPath": "C:\\Users\\Student_08\\Desktop\\C#\\TaskC-sharp-\\Классная работа\\28.05.2024\\28.05.2024\\28.05.2024.csproj",
-      "packagesPath": "C:\\Users\\Student_08\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student_08\\Desktop\\C#\\TaskC-sharp-\\Классная работа\\28.05.2024\\28.05.2024\\obj\\",
+      "projectPath": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\Классная работа\\28.05.2024\\28.05.2024\\28.05.2024.csproj",
+      "packagesPath": "C:\\Users\\Student_06\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student_06\\Desktop\\C#\\TaskC-sharp-\\Классная работа\\28.05.2024\\28.05.2024\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Student_08\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student_06\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

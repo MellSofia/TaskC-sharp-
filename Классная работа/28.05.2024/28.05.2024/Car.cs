@@ -10,15 +10,16 @@ namespace _28._05._2024
     {
         public delegate bool Damaged(int value);
         public event Damaged? hit_from_pit;
-        public int Life {  get; set; }
+        public int Life { get; set; }
         public int Speed { get; set; }
         public string Name { get; set; }
-        public Car(string _name) : this(_name, 3, 10) { }
-        public Car(string _name, int _life, int _speed) 
-        { 
+
+        public Car(string _name) : this(_name, 30, 1) { }
+        public Car(string _name, int _life, int _speed)
+        {
             Life = _life;
-            Speed = _speed;
             Name = _name;
+            Speed = _speed;
         }
     }
 }

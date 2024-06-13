@@ -5,7 +5,7 @@ namespace _28._05._2024
     public partial class Form1 : Form
     {
         private Car_Toyota ct;
-        private double meter;
+        private int meter;
         private int tmr_hit;
         private bool ingame;
         private int tmr_meter;
@@ -33,6 +33,7 @@ namespace _28._05._2024
             counter -= 1;
             ct.Speed -= 1;
             show_text.Text = ct.Speed.ToString();
+
             accel_h = accel_g * 4;
         }
         private void Incr_button_Click(object sender, EventArgs e)
@@ -83,15 +84,18 @@ namespace _28._05._2024
 
             speed += accel_g - accel_h;*/
 
-            speed += accel_g - accel_h;
-            if ((player.Top >= BG1.Top + player.Height))
+            
+
+            speed += accel_g;
+            if (player.Top >= BG1.Top - player.Height)
             {
-                player.Top = BG1.Top + player.Height;
+                player.Top = BG1.Top - player.Height;
                 speed = 0;
             }
-            player.Top += speed;
-            if (accel_h > 0) { accel_h -= 1; }
-            else player.Top = 0;
+            player.Top += speed - accel_h*2;
+
+            if (accel_h > 0) accel_h -= 1;
+            else accel_h = 0;
 
         }
 
