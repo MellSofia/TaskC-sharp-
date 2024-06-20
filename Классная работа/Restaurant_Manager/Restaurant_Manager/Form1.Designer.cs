@@ -29,7 +29,14 @@
         private void InitializeComponent()
         {
             load_page = new Panel();
+            label5 = new Label();
+            label4 = new Label();
+            label1 = new Label();
+            panel1 = new Panel();
+            table_listDishes = new TableLayoutPanel();
             groupBox_add_dish = new GroupBox();
+            btn_dish_del = new Button();
+            label6 = new Label();
             newDish_cost = new NumericUpDown();
             btn_addProd_to_new_dish = new Button();
             penal_dish_ProdList = new Panel();
@@ -45,17 +52,12 @@
             prod_load_name = new ComboBox();
             list_dishes = new ListBox();
             list_products = new ListBox();
-            panel1 = new Panel();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            label1 = new Label();
-            label4 = new Label();
-            label5 = new Label();
             load_page.SuspendLayout();
+            panel1.SuspendLayout();
             groupBox_add_dish.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)newDish_cost).BeginInit();
             penal_dish_ProdList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)prod_load_amount).BeginInit();
-            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // load_page
@@ -78,10 +80,65 @@
             load_page.Name = "load_page";
             load_page.Size = new Size(784, 661);
             load_page.TabIndex = 0;
-            load_page.Paint += load_page_Paint;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(644, 85);
+            label5.Name = "label5";
+            label5.Size = new Size(84, 15);
+            label5.TabIndex = 13;
+            label5.Text = "цена за штуку";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(496, 85);
+            label4.Name = "label4";
+            label4.Size = new Size(45, 15);
+            label4.TabIndex = 12;
+            label4.Text = "кол-во";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(542, 85);
+            label1.Name = "label1";
+            label1.Size = new Size(96, 15);
+            label1.TabIndex = 11;
+            label1.Text = "название блюда";
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(table_listDishes);
+            panel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            panel1.Location = new Point(258, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(170, 206);
+            panel1.TabIndex = 10;
+            // 
+            // table_listDishes
+            // 
+            table_listDishes.AutoSize = true;
+            table_listDishes.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
+            table_listDishes.ColumnCount = 3;
+            table_listDishes.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            table_listDishes.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65F));
+            table_listDishes.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            table_listDishes.Dock = DockStyle.Top;
+            table_listDishes.Location = new Point(0, 0);
+            table_listDishes.Name = "table_listDishes";
+            table_listDishes.RowCount = 2;
+            table_listDishes.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            table_listDishes.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            table_listDishes.Size = new Size(170, 3);
+            table_listDishes.TabIndex = 0;
+            table_listDishes.Paint += table_listDishes_Paint;
             // 
             // groupBox_add_dish
             // 
+            groupBox_add_dish.Controls.Add(btn_dish_del);
+            groupBox_add_dish.Controls.Add(label6);
             groupBox_add_dish.Controls.Add(newDish_cost);
             groupBox_add_dish.Controls.Add(btn_addProd_to_new_dish);
             groupBox_add_dish.Controls.Add(penal_dish_ProdList);
@@ -89,12 +146,33 @@
             groupBox_add_dish.Controls.Add(btn_load_new_dishes);
             groupBox_add_dish.Controls.Add(NewDish_name);
             groupBox_add_dish.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            groupBox_add_dish.Location = new Point(506, 285);
+            groupBox_add_dish.Location = new Point(505, 286);
             groupBox_add_dish.Name = "groupBox_add_dish";
             groupBox_add_dish.Size = new Size(266, 364);
             groupBox_add_dish.TabIndex = 9;
             groupBox_add_dish.TabStop = false;
             groupBox_add_dish.Text = "Добавление блюда";
+            // 
+            // btn_dish_del
+            // 
+            btn_dish_del.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            btn_dish_del.Location = new Point(182, 329);
+            btn_dish_del.Name = "btn_dish_del";
+            btn_dish_del.Size = new Size(78, 29);
+            btn_dish_del.TabIndex = 9;
+            btn_dish_del.Text = "Удалить";
+            btn_dish_del.UseVisualStyleBackColor = true;
+            btn_dish_del.Visible = false;
+            btn_dish_del.Click += btn_dish_del_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(231, 25);
+            label6.Name = "label6";
+            label6.Size = new Size(36, 21);
+            label6.TabIndex = 8;
+            label6.Text = "руб";
             // 
             // newDish_cost
             // 
@@ -102,7 +180,7 @@
             newDish_cost.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             newDish_cost.Minimum = new decimal(new int[] { 100, 0, 0, 0 });
             newDish_cost.Name = "newDish_cost";
-            newDish_cost.Size = new Size(87, 29);
+            newDish_cost.Size = new Size(59, 29);
             newDish_cost.TabIndex = 7;
             newDish_cost.ThousandsSeparator = true;
             newDish_cost.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -137,10 +215,10 @@
             table_dish_ProdList.Dock = DockStyle.Top;
             table_dish_ProdList.Location = new Point(0, 0);
             table_dish_ProdList.Name = "table_dish_ProdList";
-            table_dish_ProdList.RowCount = 2;
+            table_dish_ProdList.RowCount = 1;
             table_dish_ProdList.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             table_dish_ProdList.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            table_dish_ProdList.Size = new Size(254, 3);
+            table_dish_ProdList.Size = new Size(254, 2);
             table_dish_ProdList.TabIndex = 3;
             // 
             // chProd_for_dish
@@ -151,6 +229,7 @@
             chProd_for_dish.Name = "chProd_for_dish";
             chProd_for_dish.Size = new Size(161, 29);
             chProd_for_dish.TabIndex = 2;
+            chProd_for_dish.SelectedIndexChanged += chProd_for_dish_SelectedIndexChanged;
             // 
             // btn_load_new_dishes
             // 
@@ -184,7 +263,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Emoji", 12F);
-            label2.Location = new Point(315, 120);
+            label2.Location = new Point(332, 243);
             label2.Name = "label2";
             label2.Size = new Size(110, 21);
             label2.TabIndex = 7;
@@ -194,7 +273,7 @@
             // 
             label_list_prod.AutoSize = true;
             label_list_prod.Font = new Font("Segoe UI Emoji", 12F);
-            label_list_prod.Location = new Point(58, 120);
+            label_list_prod.Location = new Point(15, 243);
             label_list_prod.Name = "label_list_prod";
             label_list_prod.Size = new Size(148, 21);
             label_list_prod.TabIndex = 5;
@@ -203,7 +282,7 @@
             // btn_prod_load
             // 
             btn_prod_load.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            btn_prod_load.Location = new Point(204, 147);
+            btn_prod_load.Location = new Point(161, 270);
             btn_prod_load.Name = "btn_prod_load";
             btn_prod_load.Size = new Size(92, 32);
             btn_prod_load.TabIndex = 4;
@@ -213,17 +292,16 @@
             // 
             // prod_load_amount
             // 
-            prod_load_amount.Location = new Point(165, 155);
+            prod_load_amount.Location = new Point(122, 278);
             prod_load_amount.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             prod_load_amount.Name = "prod_load_amount";
             prod_load_amount.Size = new Size(33, 23);
             prod_load_amount.TabIndex = 3;
-            prod_load_amount.ValueChanged += prod_load_amount_ValueChanged;
             // 
             // prod_load_name
             // 
             prod_load_name.FormattingEnabled = true;
-            prod_load_name.Location = new Point(55, 155);
+            prod_load_name.Location = new Point(12, 278);
             prod_load_name.Name = "prod_load_name";
             prod_load_name.Size = new Size(104, 23);
             prod_load_name.TabIndex = 2;
@@ -234,9 +312,9 @@
             list_dishes.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             list_dishes.FormattingEnabled = true;
             list_dishes.ItemHeight = 21;
-            list_dishes.Location = new Point(193, 12);
+            list_dishes.Location = new Point(258, 308);
             list_dishes.Name = "list_dishes";
-            list_dishes.Size = new Size(158, 88);
+            list_dishes.Size = new Size(241, 340);
             list_dishes.TabIndex = 1;
             list_dishes.SelectedIndexChanged += list_dishes_SelectedIndexChanged;
             // 
@@ -245,64 +323,11 @@
             list_products.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             list_products.FormattingEnabled = true;
             list_products.ItemHeight = 21;
-            list_products.Location = new Point(15, 12);
+            list_products.Location = new Point(12, 308);
             list_products.Name = "list_products";
-            list_products.Size = new Size(143, 88);
+            list_products.Size = new Size(241, 340);
             list_products.TabIndex = 0;
             list_products.SelectedIndexChanged += list_products_SelectedIndexChanged;
-            // 
-            // panel1
-            // 
-            panel1.Controls.Add(tableLayoutPanel1);
-            panel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            panel1.Location = new Point(241, 285);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(232, 358);
-            panel1.TabIndex = 10;
-            // 
-            // tableLayoutPanel1
-            // 
-            tableLayoutPanel1.AutoSize = true;
-            tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
-            tableLayoutPanel1.ColumnCount = 3;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
-            tableLayoutPanel1.Dock = DockStyle.Top;
-            tableLayoutPanel1.Location = new Point(0, 0);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(232, 3);
-            tableLayoutPanel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(292, 267);
-            label1.Name = "label1";
-            label1.Size = new Size(96, 15);
-            label1.TabIndex = 11;
-            label1.Text = "название блюда";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(241, 267);
-            label4.Name = "label4";
-            label4.Size = new Size(45, 15);
-            label4.TabIndex = 12;
-            label4.Text = "кол-во";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(389, 267);
-            label5.Name = "label5";
-            label5.Size = new Size(84, 15);
-            label5.TabIndex = 13;
-            label5.Text = "цена за штуку";
             // 
             // Form1
             // 
@@ -314,14 +339,14 @@
             Text = "Form1";
             load_page.ResumeLayout(false);
             load_page.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             groupBox_add_dish.ResumeLayout(false);
             groupBox_add_dish.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)newDish_cost).EndInit();
             penal_dish_ProdList.ResumeLayout(false);
             penal_dish_ProdList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)prod_load_amount).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -346,8 +371,10 @@
         private NumericUpDown newDish_cost;
         private Label label1;
         private Panel panel1;
-        private TableLayoutPanel tableLayoutPanel1;
+        private TableLayoutPanel table_listDishes;
         private Label label5;
         private Label label4;
+        private Label label6;
+        private Button btn_dish_del;
     }
 }
