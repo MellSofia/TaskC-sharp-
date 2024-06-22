@@ -133,7 +133,6 @@
             table_listDishes.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             table_listDishes.Size = new Size(170, 3);
             table_listDishes.TabIndex = 0;
-            table_listDishes.Paint += table_listDishes_Paint;
             // 
             // groupBox_add_dish
             // 
@@ -203,7 +202,6 @@
             penal_dish_ProdList.Name = "penal_dish_ProdList";
             penal_dish_ProdList.Size = new Size(254, 224);
             penal_dish_ProdList.TabIndex = 4;
-            penal_dish_ProdList.Paint += penal_dish_ProdList_Paint;
             // 
             // table_dish_ProdList
             // 
@@ -248,6 +246,7 @@
             NewDish_name.Name = "NewDish_name";
             NewDish_name.Size = new Size(161, 29);
             NewDish_name.TabIndex = 0;
+            NewDish_name.Enter += NewDish_name_Enter;
             // 
             // label3
             // 
@@ -316,7 +315,6 @@
             list_dishes.Name = "list_dishes";
             list_dishes.Size = new Size(241, 340);
             list_dishes.TabIndex = 1;
-            list_dishes.SelectedIndexChanged += list_dishes_SelectedIndexChanged;
             // 
             // list_products
             // 
