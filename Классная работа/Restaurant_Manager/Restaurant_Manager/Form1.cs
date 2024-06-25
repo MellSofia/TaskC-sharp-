@@ -7,7 +7,8 @@ namespace Restaurant_Manager
     public partial class Form1 : Form
     {
         string FilePath_poducts = "data/products.txt";
-        //private int f;
+        string FilePath_dishes = "data/dishes";
+        public List<string> list_prods_string = new List<string>();
         public Form1()
         {
             InitializeComponent();
@@ -22,6 +23,7 @@ namespace Restaurant_Manager
             {
                 list_products.Items.AddRange(sr.ReadToEnd().Split("\r\n"));
                 list_products.Items.RemoveAt(list_products.Items.Count - 1);
+
             }
 
             foreach (string line in list_products.Items)
@@ -38,38 +40,56 @@ namespace Restaurant_Manager
             DirectoryInfo dir_dishes = new DirectoryInfo("data/dishes");
             if (!dir_dishes.Exists) dir_dishes.Create();
 
-            List<string> dishes_name = new List<string>();
+            //List<string> dishes_name = new List<string>();
             foreach (var i in dir_dishes.GetFiles())
             {
-                dishes_name.Add(i.Name); 
-                string filePath = Path.Combine("data/dishes", $"{i.Name}.txt");
-                using (StreamReader sr = new StreamReader(filePath))
+                /*dishes_name.Add(i.Name); */
+                //string filePath = Path.Combine("data/dishes", $"{i.Name}");
+                using (StreamReader sr = new StreamReader($"data/dishes/{i.Name}"))
                 {
                     string cost_s = sr.ReadLine();
                     string recept = sr.ReadToEnd();
                     string[] products = recept.Split('\n');
 
                     List<int> amount_prod = new List<int>();
-                    for (int j = 0; j < products.Length; j++)
+                    for (int j = 0; j < products.Length - 1; j++)
                     {
-                        string[] t = products[j].Split(new char[] { ':' });
+                        string[] prod_amnt = products[j].Split(new char[] { ':' });
+                        int amnt = Int32.Parse(prod_amnt[1]);
+                        int sclad_amnt = 0;
+                        foreach (var k in list_products.Items)
+                        {
+                            string temp = k.ToString();
+                            temp = temp.Substring(temp.IndexOf('-') + 2);
+                            if (temp == prod_amnt[0])
+                            {
+                                sclad_amnt = Int32.Parse((k.ToString()).
+                                    Substring(0, k.ToString().IndexOf('-') - 1));
+                                break;
+                            }
+                        }
+                        amount_prod.Add(sclad_amnt / amnt);
+
                         // в этой t лежат два значения - имя продукта и его количество.
                         // далее нужно сделать целочисленное деление общего кол-ва
                         // этого продукта на складе на его количество из рецепта.
                         // полученное число добавлять в amount_prod
                     }
-                    int amount = 0;
+                    amount_prod.Sort();
+                    int amount = amount_prod[0];
+
+
                     // здесь надо найти наименьшее в amount_prod и
                     // записать его в amount
-
+                    string dish_n = i.Name.Substring(0, i.Name.IndexOf('.'));
                     Label d_name = new Label();
-                    d_name.Name = i.Name;
-                    d_name.Text = i.Name;
+                    d_name.Name = dish_n;
+                    d_name.Text = dish_n;
                     d_name.Click += listDish_item_Click;
 
                     Label d_amount = new Label();
                     d_amount.Text = amount.ToString();
-                    d_name.Tag = d_amount;  
+                    d_name.Tag = d_amount;
 
                     Label d_cost = new Label();
                     d_cost.Text = cost_s;
@@ -81,11 +101,7 @@ namespace Restaurant_Manager
 
                 }
             }
-
         }
-
-
-
 
 
         private void btn_prod_load_Click(object sender, EventArgs e)
@@ -174,13 +190,15 @@ namespace Restaurant_Manager
         {
             btn_dish_del.Visible = true;
             NewDish_name.Text = ((Label)sender).Text;
-            newDish_cost.Value = Int32.Parse(((Label)((Label)sender).Tag).Text);
-
+            newDish_cost.Value =
+                Int32.Parse(((Label)((Label)((Label)sender).Tag).Tag).Text);
+            table_dish_ProdList.Controls.Clear();
             using (StreamReader sr = new StreamReader($"data/dishes/{((Label)sender).Text}.txt"))
             {
+                string ss = sr.ReadLine();
                 string recept = sr.ReadToEnd();
-                string[] products = recept.Split('\n');//(\n\r)
-                for (int i = 0; i < products.Length; i++)
+                string[] products = recept.Split('\n');
+                for (int i = 0; i < products.Length - 1; i++)
                 {
                     string[] t = products[i].Split(new char[] { ':' });
 
@@ -202,6 +220,34 @@ namespace Restaurant_Manager
             if (btn_dish_del.Visible == true) { btn_load_new_dishes.Size = new Size(173, 29); }
 
         }
+
+
+        //
+        private int dish_amnt_calc(string[][] recept)
+        {
+            int amount = 1;
+            List<int> amount_prod = new List<int>();
+            for (int j = 0; j < recept.Length; j++)
+            {
+                int amnt = Int32.Parse(recept[j][1]);
+                int sclad_amnt = 0;
+                foreach (var k in list_products.Items)
+                {
+                    string temp = k.ToString();
+                    temp = temp.Substring(temp.IndexOf('-') + 2);
+                    if (temp == recept[j][0])
+                    {
+                        sclad_amnt = Int32.Parse((k.ToString()).
+                            Substring(0, k.ToString().IndexOf('-') - 1));
+                        break;
+                    }
+                }
+                amount_prod.Add(sclad_amnt / amnt);
+            }
+            amount_prod.Sort();
+            amount = amount_prod[0];
+            return amount;
+        }
         //dish list updater
         private void ListDish_update(int amount, string dish_name, int cost)
         {
@@ -218,6 +264,7 @@ namespace Restaurant_Manager
                 Label d_name = new Label();
                 d_name.Name = dish_name;
                 d_name.Text = dish_name;
+                d_name.Width = 100;
                 d_name.Click += listDish_item_Click;
 
                 Label d_amount = new Label();
@@ -248,7 +295,7 @@ namespace Restaurant_Manager
                 MessageBox.Show("Напишите название блюда");
             }
 
-            if (newDish_cost.Value <= newDish_cost.Minimum)
+            if (newDish_cost.Value < newDish_cost.Minimum)
             {
                 flag = false;
                 MessageBox.Show("Напишите цену блюда");
@@ -264,27 +311,33 @@ namespace Restaurant_Manager
             {
                 string filePath = $"data/dishes/{NewDish_name.Text}.txt";
                 if (File.Exists(filePath)) { File.Delete(filePath); }
+                string[][] recept = new string[table_dish_ProdList.Controls.Count][];
                 using (FileStream fs = new FileStream(filePath, FileMode.Create))
                 {
                     using (StreamWriter sw = new StreamWriter(fs, Encoding.UTF8))
                     {
-                        sw.WriteLine($"Название: {NewDish_name.Text}");
-                        sw.WriteLine($"Цена: {newDish_cost.Value}");
-                        sw.WriteLine($"Продукты:");
+                        int count = 0;
+                        sw.WriteLine(newDish_cost.Value);
                         foreach (var item in table_dish_ProdList.Controls)
                         {
                             if (item is Label)
                             {
-                                sw.Write($"{((Label)item).Text} ");
+                                recept[count] = new string[2];
+                                string ttt = ((Label)item).Text;
+                                recept[count][1] = ttt;
+                                sw.Write(ttt);
+
                             }
                             else
                             {
-                                sw.WriteLine($"- {((NumericUpDown)item).Value}");
+                                recept[count][1] = ((NumericUpDown)item).Value.ToString();
+                                sw.WriteLine($":{((NumericUpDown)item).Value}");
+                                count++;
                             }
                         }
                     }
                 }
-                ListDish_update(1000, NewDish_name.Text, (int)newDish_cost.Value);
+                ListDish_update(dish_amnt_calc(recept), NewDish_name.Text, (int)newDish_cost.Value);
                 NewDish_name.Text = "";
                 newDish_cost.Value = newDish_cost.Minimum;
                 chProd_for_dish.Text = "";
@@ -320,11 +373,11 @@ namespace Restaurant_Manager
 
         }
 
-        private void prod_load_name_SelectedIndexChanged(object sender, EventArgs e)
+        /*private void prod_load_name_SelectedIndexChanged(object sender, EventArgs e)
         {
             anonLabel(chProd_for_dish.Text);
             chProd_for_dish.Text = "";
-        }
+        }*/
         private void btn_addProd_to_new_dish_Click(object sender, EventArgs e)
         {
             btn_dish_del.Visible = false;
@@ -332,25 +385,40 @@ namespace Restaurant_Manager
             chProd_for_dish.Text = "";
         }
 
-        private void chProd_for_dish_SelectedIndexChanged(object sender, EventArgs e)
+        /*private void chProd_for_dish_SelectedIndexChanged(object sender, EventArgs e)
         {
             anonLabel(chProd_for_dish.Text);
             chProd_for_dish.Text = "";
-        }
+        }*/
 
 
 
         private void btn_dish_del_Click(object sender, EventArgs e)
         {
+            File.Delete($"data/dishes/{NewDish_name.Text}.txt");
             table_listDishes.Controls.Remove(
-            table_listDishes.Controls.Find(NewDish_name.Text, true)[0]
-            );
+                (Label)
+                    ((Label)
+                        (table_listDishes.Controls.Find(NewDish_name.Text, true)[0]).
+                            Tag).Tag
+                );
+            table_listDishes.Controls.Remove(
+                (Label)
+                        (table_listDishes.Controls.Find(NewDish_name.Text, true)[0]).
+                            Tag
+                );
+            table_listDishes.Controls.Remove(
+                table_listDishes.Controls.Find(NewDish_name.Text, true)[0]
+                );
+            table_dish_ProdList.Controls.Clear();
+            newDish_cost.Value = newDish_cost.Minimum;
+            NewDish_name.Text = "";
+
+
+            /*
             btn_dish_del.Visible = false;
             btn_load_new_dishes.Size = new Size(254, 29);
-            NewDish_name.Text = "";
-            newDish_cost.Value = newDish_cost.Minimum;
-            chProd_for_dish.Text = "";
-            table_dish_ProdList.Controls.Clear();
+            */
         }
 
         private void NewDish_name_Enter(object sender, EventArgs e)

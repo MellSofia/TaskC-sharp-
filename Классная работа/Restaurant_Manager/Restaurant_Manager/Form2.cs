@@ -20,32 +20,9 @@ namespace Restaurant_Manager
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void btn_save_Click(object sender, EventArgs e)
-        {
-            bool flag2 = true;
-            if (flag2)
-            {
-                string filePath = $"{FilePath_dishes}/# {dish_name.Text}.txt";
-                if (File.Exists(filePath)) { File.Delete(filePath); }
-                using (FileStream fs = new FileStream(filePath, FileMode.Create))
-                {
-                    using (StreamWriter sw = new StreamWriter(fs, Encoding.UTF8))
-                    {
-                        sw.WriteLine(dish_name.Text);;
-                        foreach (var item in dish_content.Text)
-                        {
-                            sw.Write($"{item}");
-                        }
-                    }
-                }
-                dish_name.Text = "";
-                dish_content.Text = "";   
-            }
         }
     }
 }

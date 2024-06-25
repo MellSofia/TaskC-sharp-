@@ -28,80 +28,141 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dish_name = new TextBox();
-            dish_name_list = new Label();
             label1 = new Label();
-            dish_content = new TextBox();
-            btn_save = new Button();
+            panel1 = new Panel();
+            table_order_list_dish = new TableLayoutPanel();
+            btn_order_new_dish = new Button();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            Total_cost = new Label();
+            ch_dish = new ComboBox();
+            panel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // dish_name
-            // 
-            dish_name.Location = new Point(116, 15);
-            dish_name.Name = "dish_name";
-            dish_name.Size = new Size(270, 23);
-            dish_name.TabIndex = 0;
-            // 
-            // dish_name_list
-            // 
-            dish_name_list.AutoSize = true;
-            dish_name_list.Location = new Point(12, 18);
-            dish_name_list.Name = "dish_name_list";
-            dish_name_list.Size = new Size(98, 15);
-            dish_name_list.TabIndex = 1;
-            dish_name_list.Text = "Название блюда";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 55);
+            label1.Location = new Point(249, 117);
             label1.Name = "label1";
-            label1.Size = new Size(79, 15);
-            label1.TabIndex = 2;
-            label1.Text = "Содержимое";
-            label1.Click += label1_Click;
+            label1.Size = new Size(46, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Кол-во";
             // 
-            // dish_content
+            // panel1
             // 
-            dish_content.Location = new Point(12, 83);
-            dish_content.Multiline = true;
-            dish_content.Name = "dish_content";
-            dish_content.Size = new Size(353, 355);
-            dish_content.TabIndex = 3;
+            panel1.AutoScroll = true;
+            panel1.Controls.Add(table_order_list_dish);
+            panel1.Location = new Point(12, 135);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(324, 522);
+            panel1.TabIndex = 1;
             // 
-            // btn_save
+            // table_order_list_dish
             // 
-            btn_save.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            btn_save.Location = new Point(618, 587);
-            btn_save.Name = "btn_save";
-            btn_save.Size = new Size(154, 62);
-            btn_save.TabIndex = 4;
-            btn_save.Text = "Загрузить";
-            btn_save.UseVisualStyleBackColor = true;
-            btn_save.Click += btn_save_Click;
+            table_order_list_dish.AutoSize = true;
+            table_order_list_dish.ColumnCount = 3;
+            table_order_list_dish.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 70F));
+            table_order_list_dish.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
+            table_order_list_dish.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
+            table_order_list_dish.Dock = DockStyle.Top;
+            table_order_list_dish.Location = new Point(0, 0);
+            table_order_list_dish.Name = "table_order_list_dish";
+            table_order_list_dish.RowCount = 2;
+            table_order_list_dish.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            table_order_list_dish.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            table_order_list_dish.Size = new Size(324, 0);
+            table_order_list_dish.TabIndex = 0;
+            // 
+            // btn_order_new_dish
+            // 
+            btn_order_new_dish.Location = new Point(223, 90);
+            btn_order_new_dish.Name = "btn_order_new_dish";
+            btn_order_new_dish.Size = new Size(113, 23);
+            btn_order_new_dish.TabIndex = 2;
+            btn_order_new_dish.Text = "Добавить блюдо";
+            btn_order_new_dish.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(12, 116);
+            label2.Name = "label2";
+            label2.Size = new Size(98, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Название блюда";
+            label2.Click += label2_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(301, 117);
+            label3.Name = "label3";
+            label3.Size = new Size(35, 15);
+            label3.TabIndex = 4;
+            label3.Text = "Цена";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label4.Location = new Point(83, 667);
+            label4.Name = "label4";
+            label4.Size = new Size(75, 30);
+            label4.TabIndex = 5;
+            label4.Text = "Итого:";
+            // 
+            // Total_cost
+            // 
+            Total_cost.AutoSize = true;
+            Total_cost.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            Total_cost.Location = new Point(164, 667);
+            Total_cost.Name = "Total_cost";
+            Total_cost.Size = new Size(24, 30);
+            Total_cost.TabIndex = 6;
+            Total_cost.Text = "0";
+            // 
+            // ch_dish
+            // 
+            ch_dish.DropDownStyle = ComboBoxStyle.DropDownList;
+            ch_dish.FormattingEnabled = true;
+            ch_dish.Location = new Point(12, 90);
+            ch_dish.Name = "ch_dish";
+            ch_dish.Size = new Size(205, 23);
+            ch_dish.TabIndex = 7;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(784, 661);
-            Controls.Add(btn_save);
-            Controls.Add(dish_content);
+            ClientSize = new Size(345, 830);
+            Controls.Add(ch_dish);
+            Controls.Add(Total_cost);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(btn_order_new_dish);
+            Controls.Add(panel1);
             Controls.Add(label1);
-            Controls.Add(dish_name_list);
-            Controls.Add(dish_name);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Form2";
             Text = "Form2";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox dish_name;
-        private Label dish_name_list;
         private Label label1;
-        private TextBox dish_content;
-        private Button btn_save;
+        private Panel panel1;
+        private TableLayoutPanel table_order_list_dish;
+        private Button btn_order_new_dish;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label Total_cost;
+        private ComboBox ch_dish;
     }
 }

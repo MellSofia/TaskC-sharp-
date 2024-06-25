@@ -112,9 +112,9 @@
             // 
             panel1.Controls.Add(table_listDishes);
             panel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            panel1.Location = new Point(258, 12);
+            panel1.Location = new Point(258, 308);
             panel1.Name = "panel1";
-            panel1.Size = new Size(170, 206);
+            panel1.Size = new Size(241, 340);
             panel1.TabIndex = 10;
             // 
             // table_listDishes
@@ -131,7 +131,7 @@
             table_listDishes.RowCount = 2;
             table_listDishes.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             table_listDishes.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            table_listDishes.Size = new Size(170, 3);
+            table_listDishes.Size = new Size(241, 3);
             table_listDishes.TabIndex = 0;
             // 
             // groupBox_add_dish
@@ -227,7 +227,7 @@
             chProd_for_dish.Name = "chProd_for_dish";
             chProd_for_dish.Size = new Size(161, 29);
             chProd_for_dish.TabIndex = 2;
-            chProd_for_dish.SelectedIndexChanged += chProd_for_dish_SelectedIndexChanged;
+            //chProd_for_dish.SelectedIndexChanged += chProd_for_dish_SelectedIndexChanged;
             // 
             // btn_load_new_dishes
             // 
@@ -252,7 +252,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Emoji", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(512, 238);
+            label3.Location = new Point(511, 243);
             label3.Name = "label3";
             label3.Size = new Size(140, 21);
             label3.TabIndex = 8;
@@ -272,7 +272,7 @@
             // 
             label_list_prod.AutoSize = true;
             label_list_prod.Font = new Font("Segoe UI Emoji", 12F);
-            label_list_prod.Location = new Point(15, 243);
+            label_list_prod.Location = new Point(45, 243);
             label_list_prod.Name = "label_list_prod";
             label_list_prod.Size = new Size(148, 21);
             label_list_prod.TabIndex = 5;
@@ -304,16 +304,16 @@
             prod_load_name.Name = "prod_load_name";
             prod_load_name.Size = new Size(104, 23);
             prod_load_name.TabIndex = 2;
-            prod_load_name.SelectedIndexChanged += prod_load_name_SelectedIndexChanged;
+            //prod_load_name.SelectedIndexChanged += prod_load_name_SelectedIndexChanged;
             // 
             // list_dishes
             // 
             list_dishes.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             list_dishes.FormattingEnabled = true;
             list_dishes.ItemHeight = 21;
-            list_dishes.Location = new Point(258, 308);
+            list_dishes.Location = new Point(3, 3);
             list_dishes.Name = "list_dishes";
-            list_dishes.Size = new Size(241, 340);
+            list_dishes.Size = new Size(139, 109);
             list_dishes.TabIndex = 1;
             // 
             // list_products
