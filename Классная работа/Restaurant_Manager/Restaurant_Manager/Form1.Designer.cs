@@ -83,13 +83,16 @@
             // 
             // btn_start_order
             // 
-            btn_start_order.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            btn_start_order.BackColor = SystemColors.ButtonHighlight;
+            btn_start_order.FlatStyle = FlatStyle.System;
+            btn_start_order.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            btn_start_order.ForeColor = SystemColors.ButtonFace;
             btn_start_order.Location = new Point(629, 3);
             btn_start_order.Name = "btn_start_order";
             btn_start_order.Size = new Size(152, 52);
             btn_start_order.TabIndex = 14;
             btn_start_order.Text = "Добавить заказ";
-            btn_start_order.UseVisualStyleBackColor = true;
+            btn_start_order.UseVisualStyleBackColor = false;
             btn_start_order.Click += btn_start_order_Click;
             // 
             // label5
@@ -165,7 +168,8 @@
             // 
             // btn_dish_del
             // 
-            btn_dish_del.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            btn_dish_del.FlatStyle = FlatStyle.System;
+            btn_dish_del.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
             btn_dish_del.Location = new Point(182, 522);
             btn_dish_del.Name = "btn_dish_del";
             btn_dish_del.Size = new Size(78, 29);
@@ -178,9 +182,10 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(231, 25);
+            label6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label6.Location = new Point(230, 27);
             label6.Name = "label6";
-            label6.Size = new Size(36, 21);
+            label6.Size = new Size(30, 17);
             label6.TabIndex = 8;
             label6.Text = "руб";
             // 
@@ -190,7 +195,7 @@
             newDish_cost.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             newDish_cost.Minimum = new decimal(new int[] { 100, 0, 0, 0 });
             newDish_cost.Name = "newDish_cost";
-            newDish_cost.Size = new Size(59, 29);
+            newDish_cost.Size = new Size(57, 29);
             newDish_cost.TabIndex = 7;
             newDish_cost.ThousandsSeparator = true;
             newDish_cost.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -238,11 +243,11 @@
             chProd_for_dish.Name = "chProd_for_dish";
             chProd_for_dish.Size = new Size(161, 29);
             chProd_for_dish.TabIndex = 2;
-            chProd_for_dish.SelectedIndexChanged += chProd_for_dish_SelectedIndexChanged;
             // 
             // btn_load_new_dishes
             // 
-            btn_load_new_dishes.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            btn_load_new_dishes.FlatStyle = FlatStyle.System;
+            btn_load_new_dishes.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
             btn_load_new_dishes.Location = new Point(6, 522);
             btn_load_new_dishes.Name = "btn_load_new_dishes";
             btn_load_new_dishes.Size = new Size(254, 29);
@@ -318,6 +323,7 @@
             // 
             // list_products
             // 
+            list_products.BackColor = SystemColors.ControlLightLight;
             list_products.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             list_products.FormattingEnabled = true;
             list_products.ItemHeight = 21;
@@ -331,11 +337,11 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(784, 661);
             Controls.Add(load_page);
             Name = "Form1";
             Text = "Form1";
-            TopMost = true;
             load_page.ResumeLayout(false);
             load_page.PerformLayout();
             panel1.ResumeLayout(false);

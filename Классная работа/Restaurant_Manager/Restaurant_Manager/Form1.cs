@@ -8,7 +8,6 @@ namespace Restaurant_Manager
     public partial class Form1 : Form
     {
         string FilePath_poducts = "data/products.txt";
-        //string FilePath_dishes = "data/dishes";
         public List<string> list_prods_string = new List<string>();
         public Form1()
         {
@@ -65,18 +64,10 @@ namespace Restaurant_Manager
                             }
                         }
                         amount_prod.Add(sclad_amnt / amnt);
-
-                        // в этой t лежат два значения - имя продукта и его количество.
-                        // далее нужно сделать целочисленное деление общего кол-ва
-                        // этого продукта на складе на его количество из рецепта.
-                        // полученное число добавлять в amount_prod
                     }
                     amount_prod.Sort();
                     int amount = amount_prod[0];
 
-
-                    // здесь надо найти наименьшее в amount_prod и
-                    // записать его в amount
                     string dish_n = i.Name.Substring(0, i.Name.IndexOf('.'));
                     Label d_name = new Label();
                     d_name.Name = dish_n;
@@ -204,8 +195,6 @@ namespace Restaurant_Manager
 
         }
 
-
-        //
         private int dish_amnt_calc(string[][] recept)
         {
             int amount = 1;
@@ -360,17 +349,30 @@ namespace Restaurant_Manager
 
         private void btn_addProd_to_new_dish_Click(object sender, EventArgs e)
         {
-            if(chProd_for_dish.Text.Length == 0) MessageBox.Show("Выберите продукты блюда");
-            if (chProd_for_dish.Text.Length > 0)
+            if (chProd_for_dish.Text.Length == 0)
+            {
+                MessageBox.Show("Выберите продукты блюда");
+                return;
+            }
+
+            // Проверка наличия продукта в списке
+            bool productExists = false;
+            foreach (var item in table_dish_ProdList.Controls)
+            {
+                if (item is Label && ((Label)item).Text == chProd_for_dish.Text)
+                {
+                    productExists = true;
+                    break;
+                }
+            }
+
+            if (!productExists)
             {
                 btn_dish_del.Visible = false;
                 anonLabel(chProd_for_dish.Text);
                 chProd_for_dish.Text = "";
             }
         }
-
-
-
 
         private void btn_dish_del_Click(object sender, EventArgs e)
         {
@@ -406,10 +408,6 @@ namespace Restaurant_Manager
             btn_dish_del.Visible = false;
         }
 
-        private void chProd_for_dish_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void btn_start_order_Click(object sender, EventArgs e)
         {

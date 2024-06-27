@@ -44,7 +44,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(233, 48);
+            label1.Location = new Point(237, 48);
             label1.Name = "label1";
             label1.Size = new Size(46, 15);
             label1.TabIndex = 0;
@@ -78,10 +78,11 @@
             // 
             // btn_order_newDish
             // 
-            btn_order_newDish.Font = new Font("Segoe UI", 14.25F);
-            btn_order_newDish.Location = new Point(223, 12);
+            btn_order_newDish.FlatStyle = FlatStyle.System;
+            btn_order_newDish.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            btn_order_newDish.Location = new Point(190, 12);
             btn_order_newDish.Name = "btn_order_newDish";
-            btn_order_newDish.Size = new Size(113, 33);
+            btn_order_newDish.Size = new Size(146, 33);
             btn_order_newDish.TabIndex = 2;
             btn_order_newDish.Text = "Добавить блюдо";
             btn_order_newDish.UseVisualStyleBackColor = true;
@@ -100,7 +101,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(301, 48);
+            label3.Location = new Point(289, 48);
             label3.Name = "label3";
             label3.Size = new Size(35, 15);
             label3.TabIndex = 4;
@@ -110,7 +111,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 18F);
-            label4.Location = new Point(133, 612);
+            label4.Location = new Point(117, 612);
             label4.Name = "label4";
             label4.Size = new Size(84, 32);
             label4.TabIndex = 5;
@@ -120,7 +121,7 @@
             // 
             total_cost.AutoSize = true;
             total_cost.Font = new Font("Segoe UI", 18F);
-            total_cost.Location = new Point(223, 612);
+            total_cost.Location = new Point(207, 612);
             total_cost.Name = "total_cost";
             total_cost.Size = new Size(27, 32);
             total_cost.TabIndex = 6;
@@ -133,12 +134,12 @@
             choose_dish.FormattingEnabled = true;
             choose_dish.Location = new Point(12, 12);
             choose_dish.Name = "choose_dish";
-            choose_dish.Size = new Size(205, 33);
+            choose_dish.Size = new Size(172, 33);
             choose_dish.TabIndex = 7;
             // 
             // btn_total_calc
             // 
-            btn_total_calc.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            btn_total_calc.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
             btn_total_calc.Location = new Point(12, 612);
             btn_total_calc.Name = "btn_total_calc";
             btn_total_calc.Size = new Size(99, 32);
@@ -151,6 +152,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(345, 661);
             Controls.Add(btn_total_calc);
             Controls.Add(choose_dish);
@@ -175,12 +177,12 @@
         private Label label1;
         private Panel panel1;
         private TableLayoutPanel table_order_listDish;
-        private Button btn_order_newDish;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label total_cost;
         private ComboBox choose_dish;
         private Button btn_total_calc;
+        public Button btn_order_newDish;
     }
 }

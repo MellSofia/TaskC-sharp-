@@ -38,15 +38,31 @@ namespace Restaurant_Manager
 
         private void btn_order_newDish_Click(object sender, EventArgs e)
         {
-            using (StreamReader sr = new StreamReader($"data/dishes/{choose_dish.Text}.txt"))
+            if (choose_dish.Text.Length > 0)
             {
-                string cost_s = sr.ReadLine();
-                Order_item temp = new Order_item(
-                    choose_dish.Text, Int32.Parse(cost_s),
-                    (Control)table_order_listDish, order_list
-                );
-                order_list.Add(temp);
-                temp.load(table_order_listDish.Controls);
+                // Проверяем наличие выбранного блюда в списке
+                bool dishExists = order_list.Any(item => item.get_name() == choose_dish.Text);
+                if (!dishExists)
+                {
+                    using (StreamReader sr = new StreamReader($"data/dishes/{choose_dish.Text}.txt"))
+                    {
+                        string cost_s = sr.ReadLine();
+                        Order_item temp = new Order_item(
+                            choose_dish.Text, Int32.Parse(cost_s),
+                            (Control)table_order_listDish, order_list
+                        );
+                        order_list.Add(temp);
+                        temp.load(table_order_listDish.Controls);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Выбранное блюдо уже присутствует в списке.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Выберите блюдо");
             }
         }
 
@@ -64,5 +80,6 @@ namespace Restaurant_Manager
             }
             total_cost.Text = total.ToString();
         }
+
     }
 }

@@ -52,3 +52,21 @@ C:\Users\Student_06\Desktop\Новая папка (2)\TaskC-sharp-\Классн�
 C:\Users\Student_06\Desktop\Новая папка (2)\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.pdb
 C:\Users\Student_06\Desktop\Новая папка (2)\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.genruntimeconfig.cache
 C:\Users\Student_06\Desktop\Новая папка (2)\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\ref\Restaurant_Manager.dll
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\bin\Debug\net8.0-windows\Restaurant_Manager.exe
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\bin\Debug\net8.0-windows\Restaurant_Manager.deps.json
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\bin\Debug\net8.0-windows\Restaurant_Manager.runtimeconfig.json
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\bin\Debug\net8.0-windows\Restaurant_Manager.dll
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\bin\Debug\net8.0-windows\Restaurant_Manager.pdb
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.Form1.resources
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.Form2.resources
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.sourcelink.json
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.dll
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\refint\Restaurant_Manager.dll
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.pdb
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\Restaurant_Manager.genruntimeconfig.cache
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\Классная работа\Restaurant_Manager\Restaurant_Manager\obj\Debug\net8.0-windows\ref\Restaurant_Manager.dll

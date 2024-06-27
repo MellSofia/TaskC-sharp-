@@ -15,11 +15,15 @@ namespace Restaurant_Manager
         private List<Order_item> parent_list;
         private void amount_Click(object sender, EventArgs e)
         {
-            if(amount.Value < -1)
+            if (amount.Value < 1)
             {
-                ((TableLayoutPanel)(name.Parent)).Controls.Remove(name);
-                ((TableLayoutPanel)(name.Parent)).Controls.Remove(amount);
-                ((TableLayoutPanel)(name.Parent)).Controls.Remove(price);
+                TableLayoutPanel panel = name.Parent as TableLayoutPanel;
+                if (panel != null)
+                {
+                    panel.Controls.Remove(name);
+                    panel.Controls.Remove(amount);
+                    panel.Controls.Remove(price);
+                }
                 parent_list.Remove(this);
             }
         }
@@ -42,7 +46,10 @@ namespace Restaurant_Manager
             price.Text = _price.ToString();
             price.Parent = parent;
         }
-
+        public string get_name()
+        {
+            return (name.Text);
+        }
         public int get_price()
         {
             return (Int32.Parse(price.Text) * (int)amount.Value);
