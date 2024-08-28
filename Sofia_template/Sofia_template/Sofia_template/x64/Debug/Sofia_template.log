@@ -1,0 +1,9 @@
+﻿  Sofia_template.cpp
+E:\Sofia_template\Sofia_template\Sofia_template\Sofia_template.cpp(184,9): warning C4984: "if constexpr" — расширение языка C++17
+E:\Sofia_template\Sofia_template\Sofia_template\Sofia_template.cpp(199,2): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Tentity<T>"
+E:\Sofia_template\Sofia_template\Sofia_template\Sofia_template.cpp(188,14): warning C4984: "if constexpr" — расширение языка C++17
+E:\Sofia_template\Sofia_template\Sofia_template\Sofia_template.cpp(192,14): warning C4984: "if constexpr" — расширение языка C++17
+E:\Sofia_template\Sofia_template\Sofia_template\Sofia_template.cpp(237,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\Sofia_template\Sofia_template\Sofia_template\Sofia_template.cpp(240,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\Sofia_template\Sofia_template\Sofia_template\Sofia_template.cpp(243,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  Sofia_template.vcxproj -> E:\Sofia_template\Sofia_template\x64\Debug\Sofia_template.exe
