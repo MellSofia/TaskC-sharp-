@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Student_06\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Рабочий стол\\C#\\TaskC-sharp-\\Классная работа\\Restaurant_Manager\\Restaurant_Manager\\Restaurant_Manager.csproj",
+      "projectUniqueName": "C:\\Users\\Student_06\\Desktop\\Ахмутдиновой\\TaskC-sharp-\\Классная работа\\Restaurant_Manager\\Restaurant_Manager\\Restaurant_Manager.csproj",
       "projectName": "Restaurant_Manager",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\C#\\TaskC-sharp-\\Классная работа\\Restaurant_Manager\\Restaurant_Manager\\Restaurant_Manager.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\C#\\TaskC-sharp-\\Классная работа\\Restaurant_Manager\\Restaurant_Manager\\obj\\",
+      "projectPath": "C:\\Users\\Student_06\\Desktop\\Ахмутдиновой\\TaskC-sharp-\\Классная работа\\Restaurant_Manager\\Restaurant_Manager\\Restaurant_Manager.csproj",
+      "packagesPath": "C:\\Users\\Student_06\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student_06\\Desktop\\Ахмутдиновой\\TaskC-sharp-\\Классная работа\\Restaurant_Manager\\Restaurant_Manager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student_06\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -70,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
