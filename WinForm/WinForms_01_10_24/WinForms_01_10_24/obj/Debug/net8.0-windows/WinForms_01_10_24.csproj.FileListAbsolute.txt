@@ -1,0 +1,17 @@
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\bin\Debug\net8.0-windows\WinForms_01_10_24.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\bin\Debug\net8.0-windows\WinForms_01_10_24.deps.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\bin\Debug\net8.0-windows\WinForms_01_10_24.runtimeconfig.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\bin\Debug\net8.0-windows\WinForms_01_10_24.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\bin\Debug\net8.0-windows\WinForms_01_10_24.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\WinForms_01_10_24.Form1.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\WinForms_01_10_24.csproj.GenerateResource.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\WinForms_01_10_24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\WinForms_01_10_24.AssemblyInfoInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\WinForms_01_10_24.AssemblyInfo.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\WinForms_01_10_24.csproj.CoreCompileInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\WinForms_01_10_24.sourcelink.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\WinForms_01_10_24.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\refint\WinForms_01_10_24.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\WinForms_01_10_24.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\WinForms_01_10_24.genruntimeconfig.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WinForms_01_10_24\WinForms_01_10_24\obj\Debug\net8.0-windows\ref\WinForms_01_10_24.dll

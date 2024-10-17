@@ -1,0 +1,17 @@
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\bin\Debug\net8.0-windows\Exam.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\bin\Debug\net8.0-windows\Exam.deps.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\bin\Debug\net8.0-windows\Exam.runtimeconfig.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\bin\Debug\net8.0-windows\Exam.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\bin\Debug\net8.0-windows\Exam.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\Exam.Form1.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\Exam.csproj.GenerateResource.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\Exam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\Exam.AssemblyInfoInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\Exam.AssemblyInfo.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\Exam.csproj.CoreCompileInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\Exam.sourcelink.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\Exam.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\refint\Exam.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\Exam.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\Exam.genruntimeconfig.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Экзамен\Exam\Exam\obj\Debug\net8.0-windows\ref\Exam.dll

@@ -1,0 +1,68 @@
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.deps.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.runtimeconfig.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.Form1.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.csproj.GenerateResource.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.AssemblyInfoInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.AssemblyInfo.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.csproj.CoreCompileInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\refint\Sofia.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.genruntimeconfig.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\ref\Sofia.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.Form2.resources
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.exe
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.deps.json
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.runtimeconfig.json
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.dll
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.pdb
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.Form1.resources
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.sourcelink.json
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.dll
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\refint\Sofia.dll
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.pdb
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.genruntimeconfig.cache
+C:\Users\User\OneDrive\Рабочий стол\C#\TaskC-sharp-\WinForm\Sofia\Sofia\obj\Debug\net8.0-windows\ref\Sofia.dll
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.exe
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.deps.json
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.runtimeconfig.json
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.dll
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.pdb
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.Form1.resources
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.dll
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\refint\Sofia.dll
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.pdb
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.genruntimeconfig.cache
+C:\Users\User\OneDrive\Рабочий стол\Sofia\Sofia\obj\Debug\net8.0-windows\ref\Sofia.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.deps.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.runtimeconfig.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\bin\Debug\net8.0-windows\Sofia.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.csproj.GenerateResource.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.AssemblyInfoInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.AssemblyInfo.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.csproj.CoreCompileInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.sourcelink.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\refint\Sofia.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.genruntimeconfig.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\ref\Sofia.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.EditUserForm.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\Sofia\Sofia\Sofia\obj\Debug\net8.0-windows\Sofia.Login_Regist_Form.resources

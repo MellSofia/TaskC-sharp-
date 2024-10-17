@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WF04_BindingData/1.0.0": {
+        "runtime": {
+          "WF04_BindingData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WF04_BindingData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

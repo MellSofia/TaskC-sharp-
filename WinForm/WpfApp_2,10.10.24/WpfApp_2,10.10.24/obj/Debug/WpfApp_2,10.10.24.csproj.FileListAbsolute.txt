@@ -1,0 +1,7 @@
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WpfApp_2,10.10.24\WpfApp_2,10.10.24\obj\Debug\WpfApp_2,10.10.24.csproj.AssemblyReference.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WpfApp_2,10.10.24\WpfApp_2,10.10.24\obj\Debug\MainWindow.g.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WpfApp_2,10.10.24\WpfApp_2,10.10.24\obj\Debug\App.g.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WpfApp_2,10.10.24\WpfApp_2,10.10.24\obj\Debug\WpfApp_2,10.10.24_MarkupCompile.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WpfApp_2,10.10.24\WpfApp_2,10.10.24\obj\Debug\WpfApp_2,10.10.24_MarkupCompile.lref
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WpfApp_2,10.10.24\WpfApp_2,10.10.24\obj\Debug\WpfApp_2,10.10.24.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WpfApp_2,10.10.24\WpfApp_2,10.10.24\obj\Debug\WpfApp_2,10.10.24.pdb

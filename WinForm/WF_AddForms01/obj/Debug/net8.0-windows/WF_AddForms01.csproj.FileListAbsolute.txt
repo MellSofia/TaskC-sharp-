@@ -1,0 +1,37 @@
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\bin\Debug\net8.0-windows\WF_AddForms01.exe
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\bin\Debug\net8.0-windows\WF_AddForms01.deps.json
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\bin\Debug\net8.0-windows\WF_AddForms01.runtimeconfig.json
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\bin\Debug\net8.0-windows\WF_AddForms01.dll
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\bin\Debug\net8.0-windows\WF_AddForms01.pdb
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.MainForm.resources
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.csproj.GenerateResource.cache
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.GeneratedMSBuildEditorConfig.editorconfig
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.AssemblyInfoInputs.cache
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.AssemblyInfo.cs
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.csproj.CoreCompileInputs.cache
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.dll
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\refint\WF_AddForms01.dll
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.pdb
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.genruntimeconfig.cache
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\ref\WF_AddForms01.dll
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.Form2.resources
+\\PROGERS\Students\П22\Windows Forms\Примеры\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.SecondForm.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\bin\Debug\net8.0-windows\WF_AddForms01.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\bin\Debug\net8.0-windows\WF_AddForms01.deps.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\bin\Debug\net8.0-windows\WF_AddForms01.runtimeconfig.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\bin\Debug\net8.0-windows\WF_AddForms01.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\bin\Debug\net8.0-windows\WF_AddForms01.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.MainForm.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.Form2.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.SecondForm.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.csproj.GenerateResource.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.AssemblyInfoInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.AssemblyInfo.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.csproj.CoreCompileInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.sourcelink.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\refint\WF_AddForms01.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\WF_AddForms01.genruntimeconfig.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF_AddForms01\obj\Debug\net8.0-windows\ref\WF_AddForms01.dll

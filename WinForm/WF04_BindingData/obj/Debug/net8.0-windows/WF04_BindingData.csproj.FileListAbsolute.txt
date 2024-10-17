@@ -1,0 +1,65 @@
+D:\Visual Studio Projects\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.exe
+D:\Visual Studio Projects\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.deps.json
+D:\Visual Studio Projects\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.runtimeconfig.json
+D:\Visual Studio Projects\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.dll
+D:\Visual Studio Projects\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.pdb
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.Form1.resources
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.csproj.GenerateResource.cache
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.AssemblyInfo.cs
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.dll
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\refint\WF04_BindingData.dll
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.pdb
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.genruntimeconfig.cache
+D:\Visual Studio Projects\WF04_BindingData\obj\Debug\net8.0-windows\ref\WF04_BindingData.dll
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.exe
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.deps.json
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.runtimeconfig.json
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.dll
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.pdb
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\Form1.resources
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.csproj.GenerateResource.cache
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.GeneratedMSBuildEditorConfig.editorconfig
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.AssemblyInfoInputs.cache
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.AssemblyInfo.cs
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.csproj.CoreCompileInputs.cache
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.dll
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\refint\WF04_BindingData.dll
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.pdb
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.genruntimeconfig.cache
+\\progers\Students\П22\Windows Forms\Примеры\WF04_BindingData\obj\Debug\net8.0-windows\ref\WF04_BindingData.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.deps.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.runtimeconfig.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\Form1.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.csproj.GenerateResource.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.AssemblyInfoInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.AssemblyInfo.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.csproj.CoreCompileInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\refint\WF04_BindingData.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.genruntimeconfig.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\WF04_BindingData\obj\Debug\net8.0-windows\ref\WF04_BindingData.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.deps.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.runtimeconfig.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\bin\Debug\net8.0-windows\WF04_BindingData.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\Form1.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.csproj.GenerateResource.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.AssemblyInfoInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.AssemblyInfo.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.csproj.CoreCompileInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.sourcelink.json
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\refint\WF04_BindingData.dll
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\WF04_BindingData.genruntimeconfig.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WinForm\WF04_BindingData\obj\Debug\net8.0-windows\ref\WF04_BindingData.dll
